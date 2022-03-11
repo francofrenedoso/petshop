@@ -1,0 +1,45 @@
+*{
+    margin: o;
+    box-sizing: border-box;
+}
+header{}
+header section{
+    background-color:#222222;
+    color: #F3F3F3;
+    /*display: flex;
+    justify-content: space-around;*/
+}
+
+.ofertas{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.region{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:row;
+    gap: 15px;
+}
+.header{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.logo{
+    align-items: flex-start;
+}
+
+.menu{
+    display: flex;
+    color: #FFFFFF;
+    justify-content: flex-end;
+    flex-direction: row;
+    gap:55px;
+    list-style: none;
+}
+
+
+

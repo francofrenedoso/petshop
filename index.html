@@ -5,59 +5,119 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Full desktop</title>
+    <link rel="stylesheet" href="./css/style.css"
+
 </head>
 <body>
    
     <header>
         <section>
             <!-- Barra superior -->
-            <p>Grandes ofertas en comederos</p>
+            <div class="ofertas">Grandes ofertas en comederos</div>
             <!-- menú regional -->
-            <a href="#">Español</a>
-            <a href="#">$ARG</a>
+
+            <article class="region">
+                <p><a href="#">Español</a></li></p>
+                <p><a href="#">$ARG</a></li></p>
+            </article>
             
         </section>
-        <!-- Barra de menú principal -->
-<img src="./img/Logo.png"
-
-<!-- Menú principal -->
- <nav><a href="#">Categorías</a></nav>
- <nav><a href="#">Pets</a></nav>
- <nav><a href="#">Nosotros</a></nav>
- <nav><a href="#">Contactanos</a></nav>
     </header>
+        <section class="header">
+            <!-- Barra de menú principal -->
+            <div class="logo"><img src="./img/Logo@2x.png" alt="logo"></div>
+            <!-- Menú principal -->
+                 <nav ><ul class="menu">
+             <li><a href="#">Categorías</a></li>
+             <li><a href="#">Pets</a></li>
+             <li><a href="#">Nosotros</a></li>
+             <li><a href="#">Contactanos</a></li>
+                 </ul>
+                 </nav>
+        </section>
     <!-- Sección banner -->
-<img src="./img/bowl-and-pet-daities-on-green-background 1.png"
-<div>
-    <h2>¡Es un placer tenerte aquí!</h2>
-</div>
-<p>¡Comederos en descuento!</p>
-<a href="#">COMEDEROS</a>
-<!-- Sección productos -->
-<section>
-    <p>Imagen patita</p>
-    <h1>Productos Destacados</h1>
-    <ol><li><a href="#">Comederos</a></li>
-        <li><a href="#">Accesorios</a></li>
-        <li><a href="#">Comida</a></li></ol>
+<main>
+    <img id="banner" src="./img/bowl-and-pet-daities-on-green-background 1.png" alt="banner">
+    <div>
+        <h2>¡Es un placer tenerte aquí!</h2>
+    </div>
+    <p>¡Comederos en descuento!</p>
+    <a href="#">COMEDEROS</a>
+    <!-- Sección productos -->
+    <section>
+    
+        <card>
+            <p>Imagen patita</p>
+            <h1>Productos Destacados</h1>
+            <ol><li><a href="#">Comederos</a></li>
+                <li><a href="#">Accesorios</a></li>
+                <li><a href="#">Comida</a></li></ol>
+        </card>
+    
+        <card>
+            <img src="./img/churrasquito.png" alt="churrasquito">
+            <p>Juguete Churrasquito</p>
+            <p>$150</p>
+        </card>
+        <card>
+            <img src="./img/comedero.png" alt="comedero">
+            <p>comedero para perro</p>
+            <p>$250</p>
+        </card>
+        <card>
+            <img src="./img/Huesito.png" alt="huesito">
+            <p>Juguete huesito</p>
+            <p>$650</p>
+        </card>
+    </section>
+    <!-- contact -->
+    <section>
+        <ul>
+        ><li><input nombre y apellido></li>
+        <li><input telefono></li>
+        <li><input  correo electronico></li>
+        <div>
+            <button>resetar</button>
+            <button>Enviar</button>
+        </div>
+        </ul>
+    
+    </section>
+    
+    <!-- subcripcion -->
+    <section>
+        <article>
+            <img src="./img/enviar-correo 1.png" alt="enviar correo">
+            <h3>Subscribete para más novedades</h3>
+        </article>
+        <article>
+            <input Ingresa tu correo electronico>
+            <button>Subscribirme</button>
+        </article>
+    
+    
+    </section>
+</main>
 
-<card>
-    <img src="./img/churrasquito.png"
-    <p>Juguete Churrasquito</p>
-    <p>$150</p>
-</card>
-<card>
-    <img src="./img/comedero.png"
-    <p>comedero para perro</p>
-    <p>$250</p>
-</card>
-<card>
-    <img src="./img/Huesito.png"
-    <p>Juguete huesito</p>
-    <p>$650</p>
-</card>
-</section>
+<!-- footer -->
 <footer>
+<!-- locacion contacto email -->
+<section>
+    <article>
+        <ul>
+            ><li><img src="./img/Icono.png" alt="icono ubicacion"><h3>Localidad</h3>
+            <p>Calle-provincia</p></li>
+            <li><img src="./img/Icono (1).png" alt="icono telefono">><h3>Teléfono</h3>
+            <p>Número de teléfono</p></li>
+            <li><img src="./img/Icono (2).png" alt="icono correo"><h3>Correo electrónico
+            </h3><p>Direccion de correo</p></li>
+        </ul>
+    </article>
+    <article>
+        <img src="./img/Logo.png" alt="logo">
+    </article>
+</section>
+
     <!-- Contenido para el pie de página: -->
 <p style="text-align: center;">Todos los derechos reservados Front End</p>
 </footer>
