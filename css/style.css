@@ -1,8 +1,13 @@
+
 *{
-    margin: o;
+    margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
 }
-header{}
+li{
+    list-style: none;
+}
 header section{
     background-color:#222222;
     color: #F3F3F3;
@@ -40,6 +45,83 @@ header section{
     gap:55px;
     list-style: none;
 }
+#banner{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.titulo{
+    background-color: #F3F3F3;
+    padding: 12px;
+    border-radius: 12px;
+    margin-right: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+color: #3C2313;
+}
+.comederos{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #3C2313;
+
+}
+
+.button{
+    display: flex;
+    padding: 10px;
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 141px;
+    height: 49px;
+    font-weight: 400px regular;
+    line-height: 18.75px;
+    text-align: center;
+    font-size: 16px;
+    justify-content: center;
+}
+.patita{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.productos h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #3C2313;
 
 
-
+}
+.productos ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 31px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+#cards{
+    display: flex;
+    justify-content: space-around;
+}
